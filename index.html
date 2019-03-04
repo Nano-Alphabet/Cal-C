@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cal C</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="clearfix">
+	<div class="nameplate clearfix"><img src="images/@.png" height="50" width="50"><img src="images/shaikhubaid.png" height="214" style="margin-top: -82px; margin-left: -11px"></div>
+	<div class="container clearfix">
+		<div class="screen clearfix">
+			<h1><input type="textbox" onkeypress="return isNumberKey(this, event)"></h1>
+			<h2 style="float: left; font-size: 60px; text-indent: 10px; margin-top: 20px;"></h2>
+		</div>
+		
+		<div class="bottom">
+			<div class="symbols clearfix">
+				<div class="pie"><img src="images/pi.png" alt="pi" width="45" height="50"></div>
+				<div class="power"><img src="images/power.png" width="45" height="50"></div>
+				<div class="change"><img src="images/change.gif" width="45" height="50"></div>
+				<div class="clear"><img src="images/clear.png" width="60" height="50"></div>
+				<div class="AC"><img src="images/AC.png" width="75" height="50"></div>
+			</div>
+			<div class="numpad clearfix">
+				<ul>
+					<li id="one">1</li>
+					<li id="two">2</li>
+					<li id="three">3</li>
+					<li id="four">4</li>
+					<li id="five">5</li>
+					<li id="six">6</li>
+					<li id="seven">7</li>
+					<li id="eight">8</li>
+					<li id="nine">9</li>
+					<li id="zero">0</li>
+					<li id="dot">.</li>
+				</ul>
+			</div>
+			<div class="signs noselect clearfix">
+				<ul>
+					<li id="plus">+</li>
+					<li id="minus">-</li>
+					<li id="multiply">*</li>
+					<li id="divide">/</li>
+				</ul>
+			</div>
+			<div class="func clearfix">
+				<ul>
+					<li id="sin">s</li>
+					<li id="cos">c</li>
+					<li id="tan">t</li>
+					<li id="log">ln</li>
+				</ul>
+			</div>
+			<h1 class="equals" id="e">=</h1>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
